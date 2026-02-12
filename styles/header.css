@@ -37,19 +37,20 @@
 }
 .nav__item_form{
      flex: 2;
+     
 }
 .nav__icons{
      display: flex;
      gap: var(--gap-l);
 
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
      .nav__list {
           row-gap: var(--gap-l);
           column-gap: var(--gap-s);
          
      }
-     }
+     
 
      .nav__item_form{
           flex: 1 1 100%;
@@ -61,7 +62,7 @@
           padding: 0 var(--padding-xxl)
      }
      
-
+}
 @media screen and (max-width:780px) {
      .nav__link{
           display: none;
