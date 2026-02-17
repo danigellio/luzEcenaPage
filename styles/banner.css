@@ -28,7 +28,7 @@
 
 }
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1024px) {
      .banner{
           height: 30vh;
           padding-left: 10vw;
@@ -42,7 +42,7 @@
           font-size: 3rem;
      }
 }
-@media  screen and (max-width: 730px) {
+@media  screen and (max-width: 768px) {
      .banner{
           height: 25vh;
           padding-left: 5vw;
